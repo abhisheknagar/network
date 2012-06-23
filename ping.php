@@ -1,6 +1,6 @@
 <?php
 echo "<title>ping test</title>";
-
+//simple php code to test if a server is responding to ping requests
 
 // a ping test
 function do_ping($host, $fping, $p_result) {
@@ -14,7 +14,7 @@ echo "<font face=Verdana>Host <b>$host</b> is not responding to ping.<br/></font
 }
 
 }
-do_ping("ns1.domainnamrerecord.com", $fping, $p_result);
+do_ping("ns1.domainnamerecord.com", $fping, $p_result);
 
 // in case you want to check a webserver i.e port 80 
 
